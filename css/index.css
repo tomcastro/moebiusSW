@@ -1,0 +1,40 @@
+#tablespace {
+	position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.element {
+	padding-top: 12px
+}
+
+.container{
+	position: center;
+	width: 100%;
+	padding-left: 2px;
+	padding-right: 6px;
+}
+
+.wrap{
+	text-align: center
+}
+
+.left{
+	display: inline-block;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 5px;
+}
+
+.right{
+	display: inline-block;
+	float: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
+
+input.datepicker {
+		width:7em;
+	}
