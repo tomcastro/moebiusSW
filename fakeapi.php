@@ -3,7 +3,7 @@
 	function API($id, $message)
 	{
 
-		$client = new SoapClient("http://198.41.40.100/Moebius.services.incidentmanagement/WSIncident.asmx?wsdl");
+		include ("connectionConfig.php");
 
 		$id = $id + 100000;
 
